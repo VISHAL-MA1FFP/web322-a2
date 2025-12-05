@@ -2,17 +2,17 @@
 <html lang="en" data-theme="dim">
 <head>
   <meta charset="UTF-8" />
-  <title><%= title %></title>
+  <title>Server Error</title>
   <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
 
 <%- include('partials/navbar') %>
 
-<main class="container mx-auto p-8 prose">
-  <h1>About Us</h1>
-  <p>This project demonstrates Express.js + EJS + Sequelize + PostgreSQL.</p>
-</main>
+<div class="container mx-auto p-8">
+  <h1 class="text-3xl font-bold mb-4">Server Error</h1>
+  <p><%= message %></p>
+</div>
 
 </body>
 </html>
